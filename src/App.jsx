@@ -15,7 +15,7 @@ const searchLocation = (event) => {
       setData(response.data)
       console.log(response.data)
     })
-    // setLocation('')
+     setLocation('')//when a city is entered and its weather is displayed then it point the cursor to text field and clear the text field
   }
 }
 
